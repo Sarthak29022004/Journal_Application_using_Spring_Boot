@@ -35,7 +35,8 @@ public class SpringSecurity {
                 .build();
     }
 
-    @Autowired
+
+    @Autowired // matching password
     public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
         auth.userDetailsService(userDetailsService).passwordEncoder(passwordEncoder());
     }
