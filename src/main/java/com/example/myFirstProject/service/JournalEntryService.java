@@ -24,14 +24,19 @@ public class JournalEntryService {
 
     @Transactional
     public void saveEntry(JournalEntry journalEntry, String userName) {
-        User user = userService.findByUsername(userName);
-        journalEntry.setDate(LocalDateTime.now());
-        JournalEntry saved = journalEntryRepository.save(journalEntry);
-        user.getJournalEntries().add(saved);
-        userService.saveEntry(user);
+        try {
+            User user = userService.findByUsername(userName);
+            journalEntry.setDate(LocalDateTime.now());
+            JournalEntry saved = journalEntryRepository.save(journalEntry);
+            user.getJournalEntries().add(saved);
+            userService.saveUser(user);
+        } catch (Exception e) {
+            System.out.println(e);
+            throw new RuntimeException("An error occurred while saving the entry.", e);
+        }
     }
 
-    public void saveEntry(JournalEntry journalEntry) {
+    public void saveUser(JournalEntry journalEntry) {
         journalEntryRepository.save(journalEntry);
     }
 
@@ -46,9 +51,13 @@ public class JournalEntryService {
     public void deleteById(ObjectId id, String userName) {
         User user = userService.findByUsername(userName);
         user.getJournalEntries().removeIf(x -> x.getId().equals(id));
-        userService.saveEntry(user);
+        userService.saveNewUser(user);
         journalEntryRepository.deleteById(id);
     }
+
+//    List all = userService.g
+//}public List<JournalEntry> findByUserName(String userName) {
+
 
 }
 
