@@ -31,6 +31,8 @@ public class JournalEntryService {
             user.getJournalEntries().add(saved);
             userService.saveUser(user);  // saveUser,  not saveNewUser  -> important deep concept
         } catch (Exception e) {
+
+            System.out.println(e);
             throw new RuntimeException("An error occurred while saving the entry.", e);
         }
     }

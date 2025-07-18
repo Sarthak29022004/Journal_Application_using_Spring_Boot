@@ -1,10 +1,19 @@
 package com.example.myFirstProject.controller;
 
+
 import com.example.myFirstProject.entity.User;
 //import com.example.myFirstProject.service.UserService;
 import com.example.myFirstProject.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
+
+import com.example.myFirstProject.entity.JournalEntry;
+import com.example.myFirstProject.entity.User;
+import com.example.myFirstProject.service.UserService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.HttpStatusCode;
+
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

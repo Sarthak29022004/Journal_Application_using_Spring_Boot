@@ -3,7 +3,7 @@ package com.example.myFirstProject.controller;
 import com.example.myFirstProject.entity.JournalEntry;
 import com.example.myFirstProject.entity.User;
 import com.example.myFirstProject.service.JournalEntryService;
-//import com.example.myFirstProject.service.UserService;
+
 import com.example.myFirstProject.service.UserService;
 import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
