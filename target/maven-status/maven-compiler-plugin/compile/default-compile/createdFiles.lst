@@ -1,0 +1,13 @@
+com\example\myFirstProject\controller\AdminController.class
+com\example\myFirstProject\controller\JournalEntryControllerV2.class
+com\example\myFirstProject\JournalApplication.class
+com\example\myFirstProject\controller\UserController.class
+com\example\myFirstProject\service\UserService.class
+com\example\myFirstProject\controller\PublicController.class
+com\example\myFirstProject\repository\JournalEntryRepository.class
+com\example\myFirstProject\entity\JournalEntry.class
+com\example\myFirstProject\repository\UserRepository.class
+com\example\myFirstProject\config\SpringSecurity.class
+com\example\myFirstProject\service\UserDetailsServiceImpl.class
+com\example\myFirstProject\entity\User.class
+com\example\myFirstProject\service\JournalEntryService.class

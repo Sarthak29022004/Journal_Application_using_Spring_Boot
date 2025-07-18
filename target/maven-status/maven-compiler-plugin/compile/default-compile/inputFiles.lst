@@ -1,0 +1,13 @@
+C:\Users\admin\Documents\Spring Boot\myFirstProject\src\main\java\com\example\myFirstProject\config\SpringSecurity.java
+C:\Users\admin\Documents\Spring Boot\myFirstProject\src\main\java\com\example\myFirstProject\controller\AdminController.java
+C:\Users\admin\Documents\Spring Boot\myFirstProject\src\main\java\com\example\myFirstProject\controller\JournalEntryControllerV2.java
+C:\Users\admin\Documents\Spring Boot\myFirstProject\src\main\java\com\example\myFirstProject\controller\PublicController.java
+C:\Users\admin\Documents\Spring Boot\myFirstProject\src\main\java\com\example\myFirstProject\controller\UserController.java
+C:\Users\admin\Documents\Spring Boot\myFirstProject\src\main\java\com\example\myFirstProject\entity\JournalEntry.java
+C:\Users\admin\Documents\Spring Boot\myFirstProject\src\main\java\com\example\myFirstProject\entity\User.java
+C:\Users\admin\Documents\Spring Boot\myFirstProject\src\main\java\com\example\myFirstProject\JournalApplication.java
+C:\Users\admin\Documents\Spring Boot\myFirstProject\src\main\java\com\example\myFirstProject\repository\JournalEntryRepository.java
+C:\Users\admin\Documents\Spring Boot\myFirstProject\src\main\java\com\example\myFirstProject\repository\UserRepository.java
+C:\Users\admin\Documents\Spring Boot\myFirstProject\src\main\java\com\example\myFirstProject\service\JournalEntryService.java
+C:\Users\admin\Documents\Spring Boot\myFirstProject\src\main\java\com\example\myFirstProject\service\UserDetailsServiceImpl.java
+C:\Users\admin\Documents\Spring Boot\myFirstProject\src\main\java\com\example\myFirstProject\service\UserService.java
