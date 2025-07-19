@@ -1,0 +1,5 @@
+25-07-19 15:45:56:879 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.myFirstProject.MyFirstProjectApplicationTests]: MyFirstProjectApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+25-07-19 15:45:57:447 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.myFirstProject.JournalApplication for test class com.example.myFirstProject.MyFirstProjectApplicationTests
+25-07-19 15:45:58:387 [main] INFO  c.e.m.MyFirstProjectApplicationTests - Starting MyFirstProjectApplicationTests using Java 17.0.12 with PID 16184 (started by admin in C:\Users\admin\Documents\Spring Boot\myFirstProject)
+25-07-19 15:45:58:391 [main] INFO  c.e.m.MyFirstProjectApplicationTests - The following 1 profile is active: "dev"
+25-07-19 15:45:59:971 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
