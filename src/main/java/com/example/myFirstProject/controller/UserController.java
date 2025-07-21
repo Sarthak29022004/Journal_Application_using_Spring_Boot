@@ -52,10 +52,10 @@ public class UserController {
         WeatherResponse weatherResponse = weatherService.getWeather("Mumbai");
         String greeting = "";
         if (weatherResponse != null) {
-            greeting = ", weather feels like " + weatherResponse.getCurrent().getFeelslike();
+            greeting = ", weather feels like " + weatherResponse.getCurrent().getFeelslike() + "°C";
         }
-        return new ResponseEntity<>("Hi " + authentication.getName(), HttpStatus.OK);
-
+        
+        return new ResponseEntity<>("Hi " + authentication.getName() + greeting, HttpStatus.OK);
     }
 
 }

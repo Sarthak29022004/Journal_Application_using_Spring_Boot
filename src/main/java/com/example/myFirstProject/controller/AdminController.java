@@ -1,6 +1,7 @@
 package com.example.myFirstProject.controller;
 
 
+import com.example.myFirstProject.cache.AppCache;
 import com.example.myFirstProject.entity.User;
 //import com.example.myFirstProject.service.UserService;
 import com.example.myFirstProject.service.UserService;
@@ -26,6 +27,9 @@ public class AdminController {
     @Autowired
     private UserService userService;
 
+    @Autowired
+    private AppCache appCache;
+
     @GetMapping("/all-users")
     public ResponseEntity<List<User>> getAllUsers() {
         List<User> all = userService.getAll();
@@ -39,5 +43,10 @@ public class AdminController {
     public ResponseEntity<?> createAdmin(@RequestBody User user) {
         userService.saveAdmin(user);
         return new ResponseEntity<>(HttpStatus.CREATED);
+    }
+
+    @GetMapping("/clear-app-catch")
+    public void clearAppCatch(){
+        appCache.init();
     }
 }

@@ -15,3 +15,9 @@ server:
   port: 8090
   servlet:
     context-path: /journal
+
+weather:
+  api:
+    key: 2da240b29b6e80310154e5350b40246f
+
+#weather_api_key: 2da240b29b6e80310154e5350b40246f
