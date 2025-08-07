@@ -19,5 +19,3 @@ server:
 weather:
   api:
     key: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-
-#weather_api_key: 2da240b29b6e80310154e5350b40246f
